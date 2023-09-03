@@ -182,7 +182,7 @@ url-prefix("moz-extension://{e4a8a97b-f2ed-450b-b12d-ee082ba24781}/src/content/e
   span.cm-comment,
   span.cm-hr,
   span.cm-meta {
-    color: #c0c0c0!important
+    color: #666666!important
   }
   span.cm-atom,
   span.cm-attribute,
@@ -195,7 +195,7 @@ url-prefix("moz-extension://{e4a8a97b-f2ed-450b-b12d-ee082ba24781}/src/content/e
   span.cm-number,
   span.cm-string,
   span.cm-string-2 {
-    color: #3eb6ff!important
+    color: #3e5cff!important
   }
   span.cm-bracket,
   span.cm-def,

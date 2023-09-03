@@ -19,7 +19,7 @@
     color: var(--grey-30)!important
   }
   .vimvixen-console-completion-item-url {
-    color: #b3ff47!important
+    color: #59ff47!important
   }
   .vimvixen-console-completion-item.vimvixen-completion-selected {
     background-color: #170c00!important;
@@ -27,7 +27,7 @@
   }
   .vimvixen-console-error {
     background-color: #1e040a!important;
-    color: #ffc1c1!important
+    color: #ff6767!important
   }
   .vimvixen-settings-form,
   h1 {

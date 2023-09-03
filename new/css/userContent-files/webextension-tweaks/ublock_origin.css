@@ -113,12 +113,12 @@
   }
   #netFilteringDialog .dialog > div.containers > div.dynamic tr.entry > td > div.action.own.allow,
   body.advancedUser #firewallContainer > div > span.allowRule.ownRule {
-    background-color: #00c100!important;
+    background-color: #006700!important;
     color: var(--tone-2)!important
   }
   #netFilteringDialog .dialog > div.containers > div.dynamic tr.entry > td > div.action > span.allow,
   body.advancedUser #firewallContainer > div > span.allowRule {
-    background-color: #c2f7b7!important;
+    background-color: #68f75d!important;
     color: var(--tone-2)!important
   }
   #firewallContainer > div.allowed > span:first-of-type::before,
@@ -342,7 +342,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"],
   /*! #netInspector */
 #netInspector tr.blocked {
     background-color: #1e040a!important;
-    color: #ffc1c1!important
+    color: #ff6767!important
   }
   #netInspector #filterInput,
   #netInspector #maxEntries {

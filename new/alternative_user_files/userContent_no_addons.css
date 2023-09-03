@@ -28,25 +28,25 @@ regexp(".*\\.(p|P)(d|D)(f|F).*") {
     --magenta-70: #e20052;
     --magenta-80: #500022;
     --magenta-90: #170000;
-    --purple-50: #c100ff;
+    --purple-50: #6700ff;
     --purple-60: #5300ff;
     --purple-70: #3500d1;
     --purple-80: #170044;
     --purple-90: #000011;
     --blue-40: #18ceff;
-    --blue-50: #00b1ff;
+    --blue-50: #0057ff;
     --blue-60: #0033ff;
     --blue-70: #0011d7;
     --blue-80: #000048;
     --blue-90: #000013;
     --teal-50: #00ffff;
     --teal-60: #00f5ff;
-    --teal-70: #00bbd1;
+    --teal-70: #0061d1;
     --teal-80: #002d44;
     --teal-90: #000011;
     --green-50: #03ff00;
     --green-60: #00e900;
-    --green-70: #00b800;
+    --green-70: #005e00;
     --green-80: #003800;
     --green-90: #000a00;
     --yellow-50: #ffff00;
@@ -59,7 +59,7 @@ regexp(".*\\.(p|P)(d|D)(f|F).*") {
     --red-70: #d10000;
     --red-80: #2d0000;
     --red-90: #110000;
-    --orange-50: #ffc100;
+    --orange-50: #ff6700;
     --orange-60: #ff4100;
     --orange-70: #d11c00;
     --orange-80: #440000;
@@ -73,15 +73,15 @@ regexp(".*\\.(p|P)(d|D)(f|F).*") {
     --grey-70: #0b0b10;
     --grey-80: #000001;
     --grey-90: #000000;
-    --code-green: #b3ff47!important;
+    --code-green: #59ff47!important;
     --warning-color: #ffffcc;
     --warning-background-color: #170c00;
-    --theme-highlight-green: #b3ff47;
+    --theme-highlight-green: #59ff47;
     --theme-highlight-blue: #48ecff;
-    --theme-highlight-purple: #e6bbff;
+    --theme-highlight-purple: #e661ff;
     --theme-highlight-red: #ff50ff;
     --theme-highlight-yellow: #ffffcb;
-    --theme-highlight-bluegrey: #31b5dd;
+    --theme-highlight-bluegrey: #315bdd;
     --theme-highlight-lightorange: #ffc800;
     --theme-highlight-orange: #ff3900;
     --theme-highlight-pink: #ff53ff;
@@ -107,12 +107,12 @@ regexp(".*\\.(p|P)(d|D)(f|F).*") {
     --in-content-box-background-hover: var(--tone-6)!important;
     --in-content-box-background-active: var(--tone-6)!important;
     --in-content-box-border-color: var(--tone-5)!important;
-    --in-content-item-hover: rgba(0,194.0,255,0.25);
+    --in-content-item-hover: rgba(0,104.0,255,0.25);
     --in-content-item-selected: var(--tone-8)!important;
     --in-content-border-highlight: var(--accent-1)!important;
     --in-content-border-focus: var(--accent-1)!important;
     --in-content-border-color: var(--tone-6)!important;
-    --in-content-category-outline-focus: 1px dotted #00b1ff;
+    --in-content-category-outline-focus: 1px dotted #0057ff;
     --in-content-category-text: var(--tone-4)!important;
     --in-content-category-text-active: #000000;
     --in-content-category-text-selected: var(--accent-1)!important;
@@ -125,7 +125,7 @@ regexp(".*\\.(p|P)(d|D)(f|F).*") {
     --in-content-link-color: var(--accent-1)!important;
     --in-content-link-color-hover: var(--accent-2)!important;
     --in-content-link-color-active: #0011d7;
-    --in-content-link-color-visited: #00baff;
+    --in-content-link-color-visited: #0060ff;
     --in-content-primary-button-background: var(--accent-2)!important;
     --in-content-primary-button-background-hover: var(--accent-3)!important;
     --in-content-primary-button-background-active: var(--accent-3)!important;
@@ -1501,7 +1501,7 @@ html#feedHandler .enclosures {
     color: #c06!important
   }
   .highlight .doctype {
-    color: #19afe1!important
+    color: #1955e1!important
   }
   .highlight .pi {
     color: var(--theme-highlight-red)!important
@@ -1516,7 +1516,7 @@ html#feedHandler .enclosures {
     color: var(--theme-highlight-blue)!important
   }
   .highlight .markupdeclaration {
-    color: #19afe1!important
+    color: #1955e1!important
   }
   .highlight .error,
   .highlight .error > :-moz-any(.start-tag,.end-tag,.comment,.cdata,.doctype,.pi,.entity,.attribute-name,.attribute-value) {

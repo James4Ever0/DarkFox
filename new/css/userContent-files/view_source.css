@@ -18,7 +18,7 @@
     color: #c06!important
   }
   .highlight .doctype {
-    color: #19afe1!important
+    color: #1955e1!important
   }
   .highlight .pi {
     color: var(--theme-highlight-red)!important
@@ -33,7 +33,7 @@
     color: var(--theme-highlight-blue)!important
   }
   .highlight .markupdeclaration {
-    color: #19afe1!important
+    color: #1955e1!important
   }
   .highlight .error,
   .highlight .error > :-moz-any(.start-tag,.end-tag,.comment,.cdata,.doctype,.pi,.entity,.attribute-name,.attribute-value) {

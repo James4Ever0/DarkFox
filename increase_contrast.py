@@ -5,6 +5,8 @@ from pydantic import BaseModel, confloat
 
 color_float = confloat(ge=0, le=255)
 
+THRESH = 150
+INC_CONTRAST = 45
 
 class Color(BaseModel):
     red: color_float
@@ -22,7 +24,7 @@ class Color(BaseModel):
 
     @staticmethod
     def _increase_contrast(val: float, inc: float):
-        direction = val > 128
+        direction = val > THRESH
         if direction:
             sym = 1
         else:
@@ -158,7 +160,6 @@ class ColorTransformer:
         return new_content
 
 
-INC_CONTRAST = 45
 new_dir = "new"
 os.system(f"rm -rf {new_dir}")
 

@@ -13,10 +13,10 @@
 .cm-s-shadowfox .CodeMirror-line::-moz-selection, .cm-s-shadowfox .CodeMirror-line > span::-moz-selection, .cm-s-shadowfox .CodeMirror-line > span > span::-moz-selection { background: #080e1b; }
 .cm-s-shadowfox .CodeMirror-gutters { background: #000000 ; border-right: 1px solid #000000; }
 .cm-s-shadowfox .CodeMirror-guttermarker { color: #555; }
-.cm-s-shadowfox .CodeMirror-linenumber { color: #c0c0c0; }
+.cm-s-shadowfox .CodeMirror-linenumber { color: #666666; }
 .cm-s-shadowfox .CodeMirror-cursor { border-left: 1px solid #fff; }
 
-.cm-s-shadowfox span.cm-comment { color: #c0c0c0; }
+.cm-s-shadowfox span.cm-comment { color: #666666; }
 .cm-s-shadowfox span.cm-atom { color: #ff50ff; }
 .cm-s-shadowfox span.cm-quote { color: #ff50ff; }
 .cm-s-shadowfox span.cm-builtin { color: #ff50ff; }
@@ -24,25 +24,25 @@
 .cm-s-shadowfox span.cm-keyword { color: #ff50ff; }
 .cm-s-shadowfox span.cm-error { color: #ff50ff; }
 
-.cm-s-shadowfox span.cm-number { color: #3eb6ff; }
-.cm-s-shadowfox span.cm-string { color: #3eb6ff; }
-.cm-s-shadowfox span.cm-string-2 { color: #3eb6ff; }
+.cm-s-shadowfox span.cm-number { color: #3e5cff; }
+.cm-s-shadowfox span.cm-string { color: #3e5cff; }
+.cm-s-shadowfox span.cm-string-2 { color: #3e5cff; }
 
-.cm-s-shadowfox span.cm-meta { color: #c0c0c0; }
-.cm-s-shadowfox span.cm-hr { color: #c0c0c0; }
+.cm-s-shadowfox span.cm-meta { color: #666666; }
+.cm-s-shadowfox span.cm-hr { color: #666666; }
 
 .cm-s-shadowfox span.cm-header { color: #48ecff; }
 .cm-s-shadowfox span.cm-qualifier { color: #48ecff; }
 .cm-s-shadowfox span.cm-variable-2 { color: #48ecff; }
 
-.cm-s-shadowfox span.cm-property { color: #b3ff47; }
+.cm-s-shadowfox span.cm-property { color: #59ff47; }
 
 .cm-s-shadowfox span.cm-def { color: #48ecff; }
 .cm-s-shadowfox span.cm-bracket { color: #48ecff; }
 .cm-s-shadowfox span.cm-tag { color: #48ecff; }
 .cm-s-shadowfox span.cm-link:visited { color: #48ecff; }
 
-.cm-s-shadowfox span.cm-variable { color: #e6bbff; }
+.cm-s-shadowfox span.cm-variable { color: #e661ff; }
 .cm-s-shadowfox span.cm-variable-3 { color: #ffffff; }
 .cm-s-shadowfox span.cm-link { color: #464646; }
 .cm-s-shadowfox span.cm-operator { color: #dedee0; }
